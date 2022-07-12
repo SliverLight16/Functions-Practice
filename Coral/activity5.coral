@@ -1,0 +1,15 @@
+Function PrintPizzaArea(float pizzaDiameter) returns nothing
+   float piVal
+   float pizzaRadius
+   float pizzaArea
+   
+   piVal = 3.14159265
+   pizzaRadius = pizzaDiameter / 2.0
+   pizzaArea = piVal * pizzaRadius * pizzaRadius
+   
+   Put pizzaDiameter to output
+   Put " in pizza is " to output
+   Put pizzaArea to output
+   Put " sq. in.\n" to output
+   
+   

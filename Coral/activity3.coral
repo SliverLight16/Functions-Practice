@@ -1,0 +1,15 @@
+Function Main( ) returns nothing
+   float distKm
+   float distMiles
+   
+   distKm = Get next input
+   distMiles = ConvKilometerToMiles(distKm)
+   
+   Put "Miles Driven: " to output
+   Put distMiles to output
+
+Function ConvKilometerToMiles(integer numKm) returns float milesTotal
+   float milesPerKm
+   
+   milesPerKm = 0.621371
+   milesTotal = numKm * milesPerKm

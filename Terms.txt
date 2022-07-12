@@ -1,0 +1,9 @@
+Decomposition - breaking down a program into functions to greatly aid readability for easier debugging.
+
+Modular Development - separating a program into modules to develop and test them indepedently of others.
+
+Incremental Development - the process of typing and running a few lines of code at a time.
+
+Function Stub - a function without a written definition.
+
+Redundant - repeated use of statement(s) which can be avoided by using functions.

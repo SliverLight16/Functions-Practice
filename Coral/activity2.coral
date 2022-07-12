@@ -1,0 +1,27 @@
+Function Main() returns nothing
+   integer stepsWalked
+   float milesTotal
+   integer feetPerMile
+   integer feetPerStep
+   float calsTotal
+   float stepsPerMinute
+   float calPerMinWalking
+   float minutesTotal
+   
+   stepsWalked = Get next input  
+   feetPerMile = 5280
+   // Average Adult Male
+   feetPerStep = 2.5 
+   stepsPerMinute = 70.0
+   calPerMinWalking = 3.5
+   
+   milesTotal = stepsWalked * feetPerStep * (1.0 / feetPerMile)
+   minutesTotal = stepsWalked / stepsPerMinute
+   calsTotal = minutesTotal * calPerMinWalking
+   
+   Put "Miles Walked: " to output
+   Put milesTotal to output
+   Put "\n" to output
+   Put "Calories: " to output
+   Put calsTotal to output
+   Put "\n" to output
